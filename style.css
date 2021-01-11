@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+img {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.efek {
+  opacity: 0;
+  transition: transform 300ms ease-in, opacity .7s ease-in;
+}
+
+.efek.appear {
+  opacity: 1;
+}

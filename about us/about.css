@@ -1,0 +1,473 @@
+/* ------------ Mobile Devices ------------- */
+
+/* Utility */
+
+/* -----------------EFEK------------ */
+.efek {
+  opacity: 0;
+  transform: translateY(10%);
+  transition: transform 300ms ease-in, opacity .7s ease-in;
+}
+
+.efek.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.button {
+  background-color: #8c9c7b;
+  color: white;
+  border-radius: 2.5px;
+  text-shadow: 0px 0px 0px;
+}
+
+/* Navbar Beda */
+.navbar {
+  margin-top: -80px; /* bedanya */
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-nav {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.bgcolor {
+  background: #000 !important;
+}
+
+/* Jumbotron ABout Us*/
+.jumbotron {
+  background-image: url(../utility/image/pexels-kelly-lacy-2585539.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center bottom;
+  margin-top: 80px;
+
+  height: 300px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  left:10%;
+  top:0;
+  bottom:0;
+}
+
+.display-4{
+  width: 100%;
+  height: 100%;
+  text-align:center;
+  font-weight: 600;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, .7);
+  line-height: 300px;
+}
+
+/* Text About Us */
+.Aboutus{
+  margin-top: 30px;
+  text-align:justify;
+  margin-bottom: 50px;
+}
+
+.about1{
+  font-size: 12px;
+}
+.about2{
+  font-size: 12px;
+}
+
+.about1 ul{
+  list-style: none;
+  margin-left: -32px;
+}
+
+/* Akhir Text About Us */
+  
+/* Footer */
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+}
+
+.footer .top{
+  position: relative;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .top h4{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer .middle {
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer .middle .kiri {
+  color: white;
+  text-align: justify;
+}
+
+.footer .middle h5 {
+  margin: 0 0 2% 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer .middle p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.footer .middle .button{
+  width: 25%;
+  margin: 0;
+  font-size: 10px;
+  padding: 1%;
+}
+
+.frame-footer {
+  display: inline-block;
+  background-color: #414141;
+  margin: 0 0 2% 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.fa {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.fa:hover {
+  color: #8c9c7b;
+}
+
+.footer .bottom {
+  margin: 0;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  align-content: center;
+  font-size: 10px;
+}
+
+/* Mobile Devices */
+@media (min-width:420px){
+
+  /* Navbar Beda */
+  .navbar {
+    margin-top: -100px;
+  }
+
+  /* Navbar */
+
+  .navbar-brand {
+    height: 50px;
+  }
+  
+  .navbar-nav {
+    font-size: 12px;
+  }
+  
+  /* Jumbotron ABout Us*/
+  .jumbotron {
+    margin-top:100px;
+  }
+
+  /* Text About Us */
+  .Aboutus{
+    margin-top: 50px;
+  }
+    
+  /* AboutUs */
+  .about1{
+    font-size: 14px;
+  }
+  .about2{
+    font-size: 14px;
+  }
+  /* Akhir Text About US */
+
+  /* Footer */
+  .footer {
+    height: 400px;
+  }
+
+  .footer .top h4{
+    font-size: 18px;
+  }
+
+  .footer .middle h5 {
+    font-size: 18px;
+  }
+
+  .footer .middle p {
+    font-size: 12px;
+  }
+
+  .frame-footer {
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+  }
+
+  .fa {
+    font-size: 18px;
+  }
+
+  .footer .bottom {
+    font-size: 12px;
+  }
+}
+  
+/* ----------------- Dekstop -------------- */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .container-fluid {
+    width: 90%;
+  }
+
+  .navbar-brand {
+    height: 60px;
+  }
+
+  .navbar-nav {
+    margin: 0 0 0 auto;
+    font-size: 14px;
+  }
+
+  .nav-link {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(140, 156, 123, .5);
+  }
+
+  .bgcolor {
+    background: transparent !important;
+    transition: 0.75s ease;
+  }
+
+  .bgcolor.scrolled {
+    background: #000 !important;
+  }
+
+  /* Navbar Beda */
+  .navbar {
+    margin-top: -150px;
+  }
+
+  .bgcolor {
+    background: rgb(253, 253, 253) !important;
+  }
+
+  .bgcolor.scrolled .nav-link{
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .bgcolor.scrolled .nav-link:hover{
+    color: rgba(255, 255, 255, 0.75) !important;
+    background-color: rgba(140, 156, 123, .5);
+  }
+
+  .bgcolor.scrolled .navbar-brand{
+    color: white !important;
+  }
+
+  .nav-link {
+    color: rgba(0, 0, 0, .5) !important;
+  }
+
+  .nav-link:hover {
+    color: rgba(0, 0, 0, .9) !important;
+  }
+
+  /* Carousel */
+  .carousel-item{
+    height: 600px;
+  }
+
+  .carousel-inner h1 {
+    font-size: 50px;
+  }
+
+  .carousel-inner p {
+    font-size: 14px;
+  }
+
+  /* AboutUs */
+  /* Jumbotron About Us*/
+  .jumbotron {
+    height: 550px;
+    margin-top: 150px;
+  }
+
+  .display-4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, .7);
+    line-height: 550px;
+  }
+
+  .Aboutus{
+    font-size: 12px;
+  }
+
+  .about1{
+    font-size: 20px;
+  }
+  .about2{
+    font-size: 20px;
+  }
+  /* Akhir About US */
+
+  /* Footer */
+  .footer {
+    height: 350px;
+  }
+
+  .footer .top{
+    width: 90%;
+    margin: 0 auto;
+    height: 30%;
+  }
+
+  .footer .top h4{
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .footer .middle {
+    width: 90%;
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 55%;
+  }
+
+  .footer .middle h5 {
+    font-size: 20px;
+  }
+
+  .footer .middle p {
+    font-size: 14px;
+  }
+
+  .frame-footer {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+  }
+
+  .fa {
+    font-size: 20px;
+  }
+
+  .fa:hover {
+    color:#8c9c7b;
+  }
+
+  .footer .bottom {
+    height: 15%;
+    font-size: 14px;
+  }
+}
+  
+@media(min-width: 1200px){
+
+  /* Navbar */
+  .navbar-brand {
+    height: 70px;
+  }
+
+  .navbar-nav {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    height: 70px;
+  }
+  
+  /* Footer */
+  .footer {
+    height: 350px;
+  }
+
+  .footer .top{
+    height: 30%;
+  }
+
+  .footer .top h4{
+    font-size: 22px;
+  }
+
+  .footer .middle h5 {
+    font-size: 22px;
+  }
+
+  .footer .middle p {
+    font-size: 16px;
+  }
+
+  .frame-footer {
+    width: 45px;
+    height: 45px;
+    padding-top: 12.5px;
+  }
+
+  .fa {
+    font-size: 22px;
+  }
+
+  .footer .bottom {
+    font-size: 16px;
+  }
+}
+  

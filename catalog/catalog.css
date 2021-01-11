@@ -1,0 +1,981 @@
+/* ------ Small Mobile Devices -------------------- */
+/* Utility */
+.button {
+  background-color: #8c9c7b;
+  color: white;
+  border-radius: 2.5px;
+  text-shadow: 0px 0px 0px;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-nav {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.bgcolor {
+  background: #000 !important;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+  height: 200px;
+  background-image: url(../utility/image/pexels-milan-4639302.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+.jumbotron .text{
+  margin: 0;
+}
+
+.jumbotron h3 {
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  text-align: center;
+  line-height: 200px;
+  font-family: Palanquin Dark;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+/* Produts */
+.products {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.kartu {
+  border: 3px solid rgba(140, 156, 123, .3);
+  border-radius: 2.5%;
+  padding: 0;
+  min-width: 40%;
+  margin: 2.5% 2.5%;
+  overflow: hidden;
+}
+
+.frame {
+  border-radius: 2.5% 2.5% 0 0;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.frame.a {
+  background-image: url(../utility/image/IMG-20160911-WA0005-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.frame.b {
+  background-image: url(../utility/image/pexels-milan-4639302.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  width: 100%;
+  padding: 5%;
+  text-align: justify;
+}
+
+.text h4 {
+  font-size: 12px;
+}
+
+.text p {
+  font-size: 10px;
+}
+
+.tombol {
+  font-size: 8px;
+  background-color: #8c9c7b;
+  color: white;
+  font-family: Palanquin Dark;
+}
+
+
+.dummy {
+  display: none;
+}
+
+.custom {
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.custom h3 {
+  font-weight: bold;
+  font-family: Palanquin Dark;
+  font-size: 14px;
+}
+
+.custom p {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.custom img {
+  min-width: 90%;
+}
+
+
+
+/* TERM AND CONDITION */
+.row.Term {
+  margin: 0;
+  padding: 0;
+}
+
+/* Tulisan */
+.col-lg-6.term-kiri {
+  background-color: rgb(238, 232, 232);
+  padding: 40px 40px;
+}
+
+.col-lg-6.term-kiri h1 {
+  font-size: 20px;
+  border-bottom: 3px solid darkgoldenrod;
+  font-weight: bold;
+}
+
+.col-lg-6.term-kiri p {
+  font-size: 10px;
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+/* Gambar */
+.col-lg-6.term-kanan {
+  margin: 0;
+  padding: 0;
+}
+
+.term-kanan img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gambar-term {
+  height: 100%;
+  background-image: url(../utility/image/laptop-3196481_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.tombol-term {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Popup Termm */
+.modal-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #8c9c7b;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(140, 156, 123, 0.7);
+}
+
+.tombol-term .btn.btn-primary{
+  font-size: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 0;
+  background-color: #8c9c7b;
+}
+
+.tombol-term .btn.btn-primary:focus, .btn.btn-primary:active, .btn.tombol:focus, .btn.tombol:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.tombol-term .btn.btn-primary:hover, .btn.tombol:hover {
+  color: #000;
+}
+
+.modal-header{
+  padding: 0;
+  margin: 0;
+  padding: 10px;
+  height: 50px;
+  background-color: rgba(232, 232, 232, 1);
+  border: none;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal-header h3 {
+  padding: 0;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-term {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.modal-header .col-2.gambar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../utility/image/logo\ tanpa\ nama.png);
+  background-size: cover;
+}
+
+.modal-header .col.tulisan {
+  padding: 0;
+  margin-top: 3px;
+}
+
+.event-desc {
+  margin: 0;
+  padding: 0;
+}
+
+.event-desc li {
+  margin: 10px 10px 0;
+  list-style-type: none;
+}
+
+.event-desc li p {
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: justify;
+  padding: 0;
+}
+
+.event-desc li h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  width: 45%;
+  display: inline-block;
+  border-bottom: 3px solid yellow;
+  margin: 10px auto 0 auto;
+  padding: 0;
+}
+
+.modal-footer {
+  border: 0;
+}
+
+.tombol-pop.btn.btn-secondary {
+  margin-right: 40px;
+  border: none;
+  color: white;
+  background-color: #8c9c7b;
+  border-radius: 20px;
+  width: 70px;
+}
+
+.tombol-pop.btn.btn-secondary:focus, .tombol-pop.btn.btn-secondary:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.tombol-pop.btn.btn-secondary:hover {
+  color: black;
+}
+
+/* Footer */
+/* Footer */
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+}
+
+.footer .top{
+  position: relative;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .top h4{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer .middle {
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer .middle .kiri {
+  color: white;
+  text-align: justify;
+}
+
+.footer .middle h5 {
+  margin: 0 0 2% 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer .middle p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.footer .middle .button{
+  width: 25%;
+  margin: 0;
+  font-size: 10px;
+  padding: 1%;
+}
+
+.frame-footer {
+  display: inline-block;
+  background-color: #414141;
+  margin: 0 0 2% 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.fa {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.fa:hover {
+  color: #8c9c7b;
+}
+
+.footer .bottom {
+  margin: 0;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  align-content: center;
+  font-size: 10px;
+}
+/* ------------ Medium Mobile Devices ------------- */
+@media (min-width: 420px) {
+
+  /* Navbar */
+  .navbar-brand {
+    height: 50px;
+  }
+  
+  .navbar-nav {
+    font-size: 12px;
+  }
+  
+  /* Jumbotron */
+
+  .jumbotron h3 {
+    font-size: 32px;
+  }
+
+  /* Products */
+  .text h4 {
+    font-size: 17px;
+  }
+  
+  .text p {
+    font-size: 14px;
+  }
+  
+  .tombol {
+    font-size: 13px;
+  }
+
+  .custom h3 {
+    font-size: 22px;
+  }
+  
+  .custom p {
+    font-size: 15px;
+  }
+
+  /* TERM AND CONDITION */
+  .row.Term {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-lg-6.term-kiri {
+    padding: 30px 50px;
+  }
+
+  .col-lg-6.term-kiri h1 {
+    font-size: 25px;
+    padding-bottom: 4px;
+    border-bottom: 4px solid darkgoldenrod;
+    font-weight: bold;
+  }
+
+  .col-lg-6.term-kiri p {
+    font-size: 14px;
+    padding: 20px 4px;
+    text-align: justify;
+  }
+
+  .tombol-term {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
+  /* Popup Termm */
+  .modal-body::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .modal-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+
+  .tombol-term .btn.btn-primary{
+    padding: 10px 20px;
+  }
+
+  .modal-header{
+    padding: 30px;
+    height: 40px;
+  }
+
+  .modal-header h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .header-term {
+    width: 100%;
+  }
+
+  .modal-header .col-2.gambar {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .event-desc {
+    margin: 0;
+    padding: 0;
+  }
+
+  .event-desc li {
+  margin: 20px 30px 0;
+  }
+
+  .event-desc li p {
+    font-size: 13px;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .event-desc li h5 {
+    font-size: 17px;
+    font-weight: bold;
+    width: 45%;
+    border-bottom: 3px solid yellow;
+    margin: 10px auto 0 auto;
+    padding-bottom: 2px;
+  }
+
+  .modal-footer {
+    border: 0;
+  }
+
+  .tombol-pop.btn.btn-secondary {
+    margin-right: 40px;
+    border-radius: 20px;
+    width: 80px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 400px;
+  }
+
+  .footer .top h4{
+    font-size: 18px;
+  }
+
+  .footer .middle h5 {
+    font-size: 18px;
+  }
+
+  .footer .middle p {
+    font-size: 12px;
+  }
+
+  .frame-footer {
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+  }
+
+  .fa {
+    font-size: 18px;
+  }
+
+  .footer .bottom {
+    font-size: 12px;
+  }
+}
+ 
+/* ----------------- Dekstop -------------- */
+@media (min-width: 992px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .container-fluid {
+    width: 90%;
+  }
+
+  .navbar-brand {
+    height: 60px;
+  }
+
+  .navbar-nav {
+    margin: 0 0 0 auto;
+    font-size: 14px;
+  }
+
+  .nav-link {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(140, 156, 123, .5);
+  }
+
+  .bgcolor {
+    background: transparent !important;
+    transition: 0.75s ease;
+  }
+
+  .bgcolor.scrolled {
+    background: #000 !important;
+  }
+
+
+  /* Jumbotron */
+  .jumbotron {
+    height: 500px;
+  }
+
+  .jumbotron .text{
+    padding-top: 150px;
+  }
+
+  .jumbotron h3 {
+    font-size: 50px;
+  }
+
+    /* -----------------EFEK------------ */
+  .efek {
+    opacity: 0;
+    transform: translateY(10%);
+    transition: transform 300ms ease-in, opacity .7s ease-in;
+  }
+
+  .efek.appear {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Products */
+
+  .products {
+    margin: 40px auto;
+  }
+  
+  .kartu {
+    min-width: 20%;
+  }
+
+  .text h4 {
+    font-size: 20px;
+  }
+  
+  .text p {
+    font-size: 16px;
+  }
+  
+  .tombol {
+    font-family: Palanquin Dark;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .dummy {
+    display: block;
+    padding: 0;
+    margin: 2.5%;
+  }
+
+  .custom h3 {
+    font-size: 26px;
+  }
+  
+  .custom p {
+    font-size: 16px;
+  }
+
+  .custom img {
+    width: 80%;
+  }
+
+  /* TERM AND CONDITION */
+  .row.Term {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-lg-6.term-kanan {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-lg-6.term-kiri {
+    padding: 40px 70px;
+  }
+
+  .col-lg-6.term-kiri h1 {
+    font-size: 30px;
+  }
+
+  .col-lg-6.term-kiri p {
+    font-size: 18px;
+    padding: 20px 4px;
+  }
+
+  .tombol-term {
+    margin-top: 60px;
+  }
+
+
+  /* Popup Termm */
+  .tombol-term .btn.btn-primary{
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .modal-header{
+    padding: 30px;
+    height: 40px;
+  }
+
+  .modal-header h3 {
+    font-size: 34px;
+  }
+
+  .modal-header .col-2.gambar {
+    margin-top: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .event-desc li {
+    margin: 30px 40px 0;
+  }
+
+  .event-desc li p {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .event-desc li h5 {
+    padding-bottom: 3px;
+    font-size: 24px;
+    border-bottom: 3px solid yellow;
+    margin: 10px auto 0 auto;
+  }
+
+  .tombol-pop.btn.btn-secondary {
+    margin-right: 40px;
+    width: 150px;
+  }
+
+
+  /* Footer */
+  .footer {
+    height: 350px;
+  }
+
+  .footer .top{
+    width: 90%;
+    margin: 0 auto;
+    height: 30%;
+  }
+
+  .footer .top h4{
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .footer .middle {
+    width: 90%;
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 55%;
+  }
+
+  .footer .middle h5 {
+    font-size: 20px;
+  }
+
+  .footer .middle p {
+    font-size: 14px;
+  }
+
+  .frame-footer {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+  }
+
+  .fa {
+    font-size: 20px;
+  }
+
+  .fa:hover {
+    color:#8c9c7b;
+  }
+
+  .footer .bottom {
+    height: 15%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Navbar */
+  .navbar-brand {
+    height: 70px;
+  }
+
+  .navbar-nav {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    height: 70px;
+  }
+
+  /* Jumbotron */
+
+  .jumbotron h3 {
+    font-size: 70px;
+  }
+
+  /* Products */
+  .text h4 {
+    font-size: 20px;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+
+  .tombol {
+    font-size: 12px;
+  }
+
+  .custom h3 {
+    font-size: 34px;
+  }
+  
+  .custom p {
+    font-size: 20px;
+  }
+
+  /* TERM AND CONDITION */
+  .row.Term {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-lg-6.term-kanan {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-lg-6.term-kiri {
+    padding: 40px 70px;
+  }
+
+  .col-lg-6.term-kiri h1 {
+    font-size: 26px;
+    border-bottom: 4px solid darkgoldenrod;
+    font-weight: bold;
+  }
+
+  .col-lg-6.term-kiri p {
+    font-size: 14px;
+    padding: 20px 4px;
+    text-align: justify;
+  }
+
+  .tombol-term {
+    margin-top: 60px;
+  }
+
+  /* Popup Termm */
+  .modal-body::-webkit-scrollbar {
+  width: 10px;
+  }
+
+  .modal-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  }
+
+  .tombol-term .btn.btn-primary{
+  padding: 10px 20px;
+  }
+
+  .modal-header{
+  padding: 30px;
+  height: 40px;
+  }
+
+  .modal-header h3 {
+    font-size: 28px;
+  }
+
+  .header-term {
+    width: 100%;
+  }
+
+  .modal-header .col-2.gambar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .event-desc {
+    margin: 0;
+    padding: 0;
+  }
+
+  .event-desc li {
+    margin: 30px 30px 0;
+  }
+
+  .event-desc li p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .event-desc li h5 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    margin: 10px auto 0 auto;
+  }
+
+  .tombol-pop.btn.btn-secondary {
+    margin-right: 40px;
+    border-radius: 20px;
+    width: 150px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 350px;
+  }
+
+  .footer .top{
+    height: 30%;
+  }
+
+  .footer .top h4{
+    font-size: 22px;
+  }
+
+  .footer .middle h5 {
+    font-size: 22px;
+  }
+
+  .footer .middle p {
+    font-size: 16px;
+  }
+
+  .frame-footer {
+    width: 45px;
+    height: 45px;
+    padding-top: 12.5px;
+  }
+
+  .fa {
+    font-size: 22px;
+  }
+
+  .footer .bottom {
+    font-size: 16px;
+  }
+}

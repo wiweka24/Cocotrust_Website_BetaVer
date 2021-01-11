@@ -1,0 +1,210 @@
+/* ------------ Mobile Devices ------------- */
+
+/* Penjelasan Produk */
+.produk {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.kiri {
+  padding: 2.5% ;
+  max-height: 50%;
+}
+
+.kanan {
+  padding: 2.5%;
+}
+
+.gambarproduk {
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  max-height: 400px;
+}
+
+.gambarproduk .img-fluid{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-title{
+  margin-top: 0px;
+}
+
+.kanan h1{
+  font-size:20px;
+  font-weight:800;
+}
+
+.price{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.productdetail{
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.produkstatus{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.product-detail ul{
+  list-style:none;
+  display: inline-block;
+  margin-left: -30px;
+  font-size: 10px;
+}
+
+.detail{
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.status ul{
+  list-style: none;
+  margin-left: -30px;
+  font-size: 10px;
+}
+
+/* -----------------EFEK------------ */
+.efek {
+  opacity: 0;
+  transform: translateY(10%);
+  transition: transform 300ms ease-in, opacity .7s ease-in;
+}
+
+.efek.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* ----------------- HP Normal -------------- */
+@media (min-width: 420px) {
+
+  /* Penjelasan Produk */
+  .produk{
+    margin-top: 60px;
+  }
+
+  .gambarproduk {
+    max-height: 500px;
+  }
+
+  .kanan h1{
+    font-size: 22px;
+  }
+
+  .price{
+    font-size: 16px;
+  }
+
+  .productdetail{
+    font-size: 12px;
+  }
+
+  .produkstatus{
+    font-size: 16px;
+  }
+
+  .product-detail ul{
+    font-size: 12px;
+  }
+
+  .detail{
+    font-size: 16px;
+  }
+
+  .status ul{
+    font-size: 12px;
+  }
+}
+  
+ /* ----------------- Dekstop Kecil -------------- */
+@media (min-width: 992px) {
+  /* Penjelasan Produk */
+  .produk{
+    border:3px solid black;
+    margin-top: 110px;
+  }
+
+  .kiri {
+    padding: 2.5% 1.25% 2.5% 2.5% ;
+  }
+  
+  .kanan {
+    padding: 2.5% 2.5% 2.5% 1.25%;
+  }
+
+  .gambarproduk {
+    max-height: 600px;
+  }
+
+  .kanan h1{
+    font-size: 24px;
+  }
+
+  .price{
+    font-size: 18px;
+  }
+
+  .productdetail{
+    font-size: 14px;
+  }
+
+  .produkstatus{
+    font-size: 18px;
+  }
+
+  .product-detail ul{
+    font-size: 14px;
+  }
+
+  .detail{
+    font-size: 18px;
+  }
+
+  .status ul{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /* Penjelasan Produk */
+  .gambarproduk {
+    max-height: 700px;
+  }
+
+  .kanan h1{
+    font-size: 26px;
+  }
+
+  .price{
+    font-size: 20px;
+  }
+
+  .productdetail{
+    font-size: 16px;
+  }
+
+  .produkstatus{
+    font-size: 20px;
+  }
+
+  .product-detail ul{
+    font-size: 16px;
+  }
+
+  .detail{
+    font-size: 20px;
+  }
+
+  .status ul{
+    font-size: 16px;
+  }
+}

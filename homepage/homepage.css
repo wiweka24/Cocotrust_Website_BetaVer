@@ -1,0 +1,806 @@
+/* ------------------------------------------------------------
+Mobile Devices 
+--------------------------------------------------------------- */
+
+/* Utility */
+.button {
+  margin-top: 5%;
+  width: 100px;
+  background-color: #8c9c7b;
+  color: white;
+  border-radius: 2.5px;
+  text-shadow: 0px 0px 0px;
+  font-size: 10px;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-nav {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.bgcolor {
+  background: #000 !important;
+}
+
+/* Carousel */
+.carousel {
+  z-index: 1;
+}
+
+.carousel-item{
+  height: 400px;
+}
+
+.carousel-position {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-text{
+  color: white;
+  width: 80%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  transition: 1.5s ease;
+}
+
+.carousel-inner .First {
+  background-image: url(../utility/image/Carousel-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.carousel-inner .Second {
+  background-image: url(../utility/image/team.JPG);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.carousel-inner .Third {
+  background-image: url(../utility/image/pexels-pixabay-48884.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.carousel-inner .Fourth {
+  background-image: url(../utility/image/pexels-frans-van-heerden-2881632.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.carousel-inner h1 {
+  font-family: Palanquin Dark;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.carousel-inner p {
+  font-size: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Company */
+.Company {
+  margin: 5% 0;
+}
+
+.Company .col-md {
+  margin: 2.5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Company .img-fluid {
+  border-radius: 5px;
+}
+
+.Company h3 {
+  font-family: Palanquin Dark;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Company p {
+  font-size: 10px;
+  text-align: justify;
+}
+
+.Company a {
+  display: block;
+  margin: auto;
+}
+
+/* Our Products */
+.jumbotron {
+  background-image: url(../utility/image/Hexagonal-shape-charcoal-briquettes.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 450px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron .text{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.jumbotron h3 {
+  font-family: Palanquin Dark;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.jumbotron p{
+  margin: 0 auto;
+  width: 90%;
+  font-size: 10px;
+}
+
+.products {
+  margin: 0;
+}
+
+.products .kartu {
+  margin: 0;
+}
+
+.products .kartu h4 {
+  text-align: center;
+  display: none;
+}
+
+.frame-tambahan a{
+  color: white;
+  text-decoration: none;
+}
+
+.products .frame {
+  margin: 2.5% auto;
+  width: 70%;
+  padding: 5% 0;
+  background-image: url(../utility/image/bigstock-Charcoal-briquettes-for-barbec-201943243-1280x720.jpg);
+  background-size: cover;
+  background-position: center center;
+  transition: 1.5s ease ;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-tambahan h5{
+  font-size: 14px;
+  margin: 0;
+}
+
+.jumbotron .button {
+  margin-top: 5%;
+  width: 150px;
+}
+
+/* P-Edu */
+.P-Edu {
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.P-Edu .Kiri {
+  width: 50%;
+  padding: 0;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.P-Edu .Kiri img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.65;
+  filter: blur(1);
+}
+
+.P-Edu .Kanan {
+  width: 50%;
+  padding: 0;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.P-Edu .Kanan img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.65;
+  filter: blur(1);
+}
+
+.P-Edu .col-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.P-Edu a{
+  border: 2.5px dashed white;
+  padding: 2.5%;
+  position: absolute;
+  z-index: 1;
+  font-family: Palanquin Dark;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  transition: 1s;
+  font-size: 16px;
+}
+
+.P-Edu a:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+}
+
+.footer .top{
+  position: relative;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .top h4{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer .middle {
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer .middle .kiri {
+  color: white;
+  text-align: justify;
+}
+
+.footer .middle h5 {
+  margin: 0 0 2% 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer .middle p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.footer .middle .button{
+  width: 25%;
+  margin: 0;
+  font-size: 10px;
+  padding: 1%;
+}
+
+.frame-footer {
+  display: inline-block;
+  background-color: #414141;
+  margin: 0 0 2% 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.fa {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.fa:hover {
+  color: #8c9c7b;
+}
+
+.footer .bottom {
+  margin: 0;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  align-content: center;
+  font-size: 10px;
+}
+
+/* ----------------- HP Normal -------------- */
+@media (min-width: 420px) {
+  .button {
+    font-size: 12px;
+  }
+
+  .navbar-brand {
+    height: 50px;
+  }
+  
+  .navbar-nav {
+    font-size: 12px;
+  }
+
+  /* Carousel */
+  .carousel-item{
+    height: 425px;
+  }
+
+  .carousel-inner h1 {
+    font-size: 32px;
+  }
+
+  .carousel-inner p {
+    font-size: 12px;
+  }
+
+  /* Company */
+  .Company h3 {
+    font-size: 22px;
+  }
+
+  .Company p {
+    font-size: 12px;
+  }
+
+  /* Our Products */
+  .jumbotron {
+    height: 550px;
+  }
+
+  .jumbotron h3 {
+    font-size: 22px;
+  }
+
+  .jumbotron p{
+    font-size: 12px;
+  }
+
+  /* P-Edu */
+  .P-Edu .Kiri {
+    height: 450px;
+  }
+
+  .P-Edu .Kanan {
+    height: 450px;
+  }
+
+  .P-Edu a{
+    font-size: 20px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 400px;
+  }
+
+  .footer .top h4{
+    font-size: 18px;
+  }
+
+  .footer .middle h5 {
+    font-size: 18px;
+  }
+
+  .footer .middle p {
+    font-size: 12px;
+  }
+
+  .frame-footer {
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+  }
+
+  .fa {
+    font-size: 18px;
+  }
+
+  .footer .bottom {
+    font-size: 12px;
+  }
+}
+ 
+
+/* ----------------- Dekstop Kecil -------------- */
+@media (min-width: 992px) {
+  .content{
+    background-color: #D9D9D9;
+    padding: 1.25%;
+  }
+
+  /* Utility */
+  .button {
+    width: 150px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  /* Navbar */
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .container-fluid {
+    width: 90%;
+  }
+
+  .navbar-brand {
+    height: 60px;
+  }
+
+  .navbar-nav {
+    margin: 0 0 0 auto;
+    font-size: 14px;
+  }
+
+  .nav-link {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(140, 156, 123, .5);
+  }
+
+  .bgcolor {
+    background: transparent !important;
+    transition: 0.75s ease;
+  }
+
+  .bgcolor.scrolled {
+    background: #000 !important;
+  }
+
+  /* Carousel */
+  .carousel-item{
+    height: 600px;
+  }
+
+  .carousel-inner h1 {
+    font-size: 50px;
+  }
+
+  .carousel-inner p {
+    font-size: 14px;
+  }
+
+  /* -----------------EFEK------------ */
+  .efek {
+    opacity: 0;
+    transform: translateY(10%);
+    transition: transform 300ms ease-in, opacity .7s ease-in;
+  }
+
+  .efek.appear {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Company */
+  .Company {
+    margin: 2.5% 0;
+  }
+
+  .Company-text {
+    padding: auto 0;
+  }
+
+  .Company h3 {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .Company p {
+    font-size: 14px;
+    margin-bottom: 5%;
+  }
+
+  .Company a {
+    display: inline-block;
+  }
+
+  /* Products */
+  .jumbotron {
+    height: 650px;
+  }
+
+  .jumbotron h3 {
+    font-size: 24px;
+  }
+  
+  .jumbotron p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .products {
+    margin: 20px auto;
+    width: 70%;
+  }
+
+  .products .kartu h4 {
+    background-color: white;
+    padding: 10px 0;
+    display: block;
+    margin: 0;
+
+    font-size: 14px;
+  }
+
+  .frame-tambahan {
+    overflow: hidden;
+  }
+
+  .products .frame {
+    margin: 0;
+    width: 100%;
+    padding-top: 100%;
+  }
+
+  .products .kartu h5 {
+    display: none;
+  }
+
+  .frame:hover {
+    transform: scale(1.5);
+  }
+
+  .jumbotron .button {
+    width: 160px;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: 1%;
+  }
+
+  /* P-Edu */
+  .P-Edu .Kiri {
+    height: 900px;
+  }
+
+  .P-Edu .Kiri img {
+    transition: 1s;
+  }
+
+  .P-Edu .Kanan {
+    height: 900px;
+  }
+
+  .P-Edu .Kanan img {
+    transition: 1s;
+  }
+
+  .P-Edu a {
+    border: 5px dashed white;
+    font-size: 40px;
+  }
+
+  .P-Edu a:hover ~ img{
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="5" /></filter></svg>#filter');
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+
+  /* Footer */
+  .footer {
+    height: 350px;
+  }
+
+  .footer .top{
+    width: 90%;
+    margin: 0 auto;
+    height: 30%;
+  }
+
+  .footer .top h4{
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .footer .middle {
+    width: 90%;
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 55%;
+  }
+
+  .footer .middle h5 {
+    font-size: 20px;
+  }
+
+  .footer .middle p {
+    font-size: 14px;
+  }
+
+  .frame-footer {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+  }
+
+  .fa {
+    font-size: 20px;
+  }
+
+  .fa:hover {
+    color:#8c9c7b;
+  }
+
+  .footer .bottom {
+    height: 15%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Navbar */
+  .navbar-brand {
+    height: 70px;
+  }
+
+  .navbar-nav {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    height: 70px;
+  }
+
+  /* Carousel */
+  .carousel-item{
+    height: 640px;
+  }
+
+  .carousel-inner h1 {
+    font-size: 70px;
+  }
+
+  .carousel-inner p {
+    font-size: 16px;
+  }
+
+  /* Company */
+  .Company h3 {
+    font-size: 26px;
+  }
+
+  .Company p {
+    font-size: 16px;
+  }
+
+  /* Products */
+  .jumbotron {
+    height: 700px;
+  }
+
+  .jumbotron h3 {
+    font-size: 26px;
+  }
+  
+  .jumbotron p{
+    font-size: 16px;
+  }
+
+  .products {
+    margin: 40px auto;
+  }
+
+  .products .kartu h4 {
+    padding: 15px 0;
+    font-size: 16px;
+  }
+
+  .jumbotron .button {
+    width: 240px;
+    font-size: 16px;
+  }
+
+  /* P-Edu */
+  .P-Edu .Kiri {
+    height: 1000px;
+  }
+
+  .P-Edu .Kanan {
+    height: 1000px;
+  }
+
+  .P-Edu a {
+    font-size: 44px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 350px;
+  }
+
+  .footer .top{
+    height: 30%;
+  }
+
+  .footer .top h4{
+    font-size: 22px;
+  }
+
+  .footer .middle h5 {
+    font-size: 22px;
+  }
+
+  .footer .middle p {
+    font-size: 16px;
+  }
+
+  .frame-footer {
+    width: 45px;
+    height: 45px;
+    padding-top: 12.5px;
+  }
+
+  .fa {
+    font-size: 22px;
+  }
+
+  .footer .bottom {
+    font-size: 16px;
+  }
+}
