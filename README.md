@@ -46,5 +46,5 @@ Coccotrus_id/
 
 [akbar-github]: https://github.com/akbarsigit
 [rifat-github]: https://github.com/muhammadrifatba
-[cocotrust-page]: https://wiweka24.github.io/Cocotrust_id/
+[cocotrust-page]: https://wiweka24.github.io/cocotrust-id/
 [cocotrust-gif]: https://
